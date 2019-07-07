@@ -16,7 +16,7 @@ c.Store_json = True
 c.Custom["tweet"] = ["id", "date", "username", "created_at", "tweet"]
 c.User_full = True
 c.Output = "tweets.json"
-c.Format = "Tweet id: {id} | Date: {date} | Created: {created_at} | Tweet: {tweet} | dA"
+c.Format = "Tweet id: {id} | Date: {date} | Tweet: {tweet} | dA"
 
 # Run
 twint.run.Search(c)
