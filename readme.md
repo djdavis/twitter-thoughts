@@ -15,6 +15,9 @@ If you have ideas, let's work together! Follow me on Twitter @TalkingTechWitD
 
 Result will be a `tweets.json` file
 
+### Deployment:
+`serverless deploy`
+
 ### To Do:
 
 1. Adjust search parameters to ensure relevant and "tasteful" results
