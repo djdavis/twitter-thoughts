@@ -1,5 +1,10 @@
 service: scrape-twitter
 
+package:
+  exclude:
+    - node_modules/**
+    - venv/**
+
 provider:
   name: aws
   runtime: python3.6
@@ -18,3 +23,7 @@ plugins:
 custom:
   pythonRequirements:
     dockerizePip: non-linux
+    slim: true
+    zip: true
+    noDeploy:
+      - elasticsearch
